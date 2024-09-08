@@ -52,7 +52,7 @@ export function Testimonial() {
 
   return (
     <>
-      <div className="flex gap-5 flex-col justify-center items-center bg-white pb-10">
+      <div className="xs:hidden md:flex gap-5 flex-col justify-center items-center bg-white pb-10">
         <p className="text-black text-xl tracking-wide mt-20">Testimonial</p>
         <p className="text-black text-4xl tracking-wide font-bold">
           Customer is Our Top Priority

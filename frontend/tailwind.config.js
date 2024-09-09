@@ -6,6 +6,18 @@ module.exports = {
       animation: {
         wiggle: "wiggle 1s ease-in-out infinite",
       },
+      keyframes: {
+        wiggle: {
+          "0%, 100%": {
+            transform: "rotate(-3deg)",
+            "animation-timing-function": "cubic-bezier(0.8, 0, 1, 1)",
+          },
+          "50%": {
+            transform: "rotate(3deg)",
+            "animation-timing-function": "cubic-bezier(0.8, 0, 1, 1)",
+          },
+        },
+      },
     },
     container: {
       center: true,

@@ -7,7 +7,7 @@ export function Services() {
         approaches
       </p>
       <div className="xs:hidden md:flex gap-6 justify-center items-center">
-        <div className="flex md:flex-col gap-10 items-center justify-center w-[350px] h-[250px] rounded-3xl mt-20 bg-[#CEFC02]">
+        <div className="custom-transition flex md:flex-col gap-10 items-center justify-center w-[350px] h-[250px] rounded-3xl mt-20 bg-[#CEFC02]">
           <svg
             width="80px"
             height="80px"
@@ -37,7 +37,7 @@ export function Services() {
             SEO Marketing
           </p>
         </div>
-        <div className="flex flex-col gap-10 items-center justify-center w-[350px] h-[250px] rounded-3xl mt-20 bg-[#CEFC02]">
+        <div className="custom-transition flex flex-col gap-10 items-center justify-center w-[350px] h-[250px] rounded-3xl mt-20 bg-[#CEFC02]">
           <svg
             width="80px"
             height="80px"
@@ -67,7 +67,7 @@ export function Services() {
             Content Marketing
           </p>
         </div>
-        <div className="flex flex-col gap-10 items-center justify-center w-[350px] h-[250px] rounded-3xl mt-20 bg-[#CEFC02]">
+        <div className="custom-transition flex flex-col gap-10 items-center justify-center w-[350px] h-[250px] rounded-3xl mt-20 bg-[#CEFC02]">
           <svg
             width="80px"
             height="80px"
@@ -99,7 +99,7 @@ export function Services() {
         </div>
       </div>
       <div className="xs:hidden md:flex gap-6 justify-center items-center">
-        <div className="flex flex-col gap-10 items-center justify-center w-[350px] h-[250px] rounded-3xl mt-10 bg-[#CEFC02]">
+        <div className="custom-transition flex flex-col gap-10 items-center justify-center w-[350px] h-[250px] rounded-3xl mt-10 bg-[#CEFC02]">
           <svg
             width="80px"
             height="80px"
@@ -129,7 +129,7 @@ export function Services() {
             PPC
           </p>
         </div>
-        <div className="flex flex-col gap-10 items-center justify-center w-[350px] h-[250px] rounded-3xl mt-10 bg-[#CEFC02]">
+        <div className="custom-transition flex flex-col gap-10 items-center justify-center w-[350px] h-[250px] rounded-3xl mt-10 bg-[#CEFC02]">
           <svg
             width="80px"
             height="80px"
@@ -200,7 +200,7 @@ export function Services() {
               content, structure, and performance to attract more organic
               traffic, ensuring your business stands out in search results.
             </p>
-            <button className="mt-10 bg-[#CEFC02] w-full h-14 rounded-lg text-black font-bold">
+            <button className="custom-transition mt-10 bg-[#CEFC02] w-full h-14 rounded-lg text-black font-bold">
               Start Now
             </button>
             <hr className="w-[98%] border-[1px] border-slate-700 mt-8" />
@@ -246,7 +246,7 @@ export function Services() {
               to resonate with your target market and convert visitors into
               loyal customers.
             </p>
-            <button className="mt-10 bg-[#CEFC02] w-full h-14 rounded-lg text-black font-bold">
+            <button className="custom-transition mt-10 bg-[#CEFC02] w-full h-14 rounded-lg text-black font-bold">
               Start Now
             </button>
             <hr className="w-[98%] border-[1px] border-slate-700 mt-8" />
@@ -291,7 +291,7 @@ export function Services() {
               Facebook, Instagram, Twitter, and LinkedIn, ensuring your brand
               connects with your audience and drives meaningful engagement.
             </p>
-            <button className="mt-10 bg-[#CEFC02] w-full h-14 rounded-lg text-black font-bold">
+            <button className="custom-transition mt-10 bg-[#CEFC02] w-full h-14 rounded-lg text-black font-bold">
               Start Now
             </button>
             <hr className="w-[98%] border-[1px] border-slate-700 mt-8" />
@@ -336,7 +336,7 @@ export function Services() {
               your business reaches the right audience at the right time for
               optimal conversions.
             </p>
-            <button className="mt-10 bg-[#CEFC02] w-full h-14 rounded-lg text-black font-bold">
+            <button className="custom-transition mt-10 bg-[#CEFC02] w-full h-14 rounded-lg text-black font-bold">
               Start Now
             </button>
             <hr className="w-[98%] border-[1px] border-slate-700 mt-8" />
@@ -381,7 +381,7 @@ export function Services() {
               segmenting audiences, and analyzing performance to boost
               engagement and drive repeat business
             </p>
-            <button className="mt-10 bg-[#CEFC02] w-full h-14 rounded-lg text-black font-bold">
+            <button className="custom-transition mt-10 bg-[#CEFC02] w-full h-14 rounded-lg text-black font-bold">
               Start Now
             </button>
           </div>

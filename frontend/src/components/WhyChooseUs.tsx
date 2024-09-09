@@ -13,7 +13,7 @@ export function WhyChooseUs() {
         <div className="flex flex-col gap-20 xs:bg-white md:bg-gray-800">
           <div className="xs:mx-4 md:mx-0 xs:w-[90%] flex xs:flex-col md:flex-row xs:gap-10 md:gap-20 items-start">
             <img
-              className="rounded-bl-none rounded-3xl md:ml-16 md:w-[600px] md:h-[550px]"
+              className="custom-transition rounded-bl-none rounded-3xl md:ml-16 md:w-[600px] md:h-[550px]"
               src="/why-choose-us-1.jpg"
               alt=""
             />
@@ -26,7 +26,7 @@ export function WhyChooseUs() {
                 ensuring relevance and success.
               </p>
               <div className="xs:flex xs:justify-center xs:items-center md:flex-none md:justify-start md:items-start">
-                <button className="xs:bg-black md:bg-[#CEFC02] w-36 xs:h-8 md:h-14 xs:rounded-full md:rounded-lg xs:text-[#CEFC02] md:text-black font-bold">
+                <button className="custom-transition xs:bg-black md:bg-[#CEFC02] w-36 xs:h-8 md:h-14 xs:rounded-full md:rounded-lg xs:text-[#CEFC02] md:text-black font-bold">
                   Read more{" "}
                 </button>
               </div>
@@ -41,19 +41,19 @@ export function WhyChooseUs() {
                 Creative excellence drives our work. From concept to execution,
                 we aim for exceptional results.
               </p>
-              <button className="bg-[#CEFC02] w-36 h-14 rounded-lg text-black font-bold">
+              <button className="custom-transition bg-[#CEFC02] w-36 h-14 rounded-lg text-black font-bold">
                 Read more{" "}
               </button>
             </div>
             <img
-              className="rounded-3xl rounded-br-none w-[600px] h-[550px]"
+              className="custom-transition rounded-3xl rounded-br-none w-[600px] h-[550px]"
               src="/why-choose-us-1.jpg"
               alt=""
             />
           </div>
           <div className="md:hidden xs:mx-4 md:mx-0 xs:w-[90%] flex xs:flex-col md:flex-row xs:gap-10 md:gap-20 items-start">
             <img
-              className="rounded-3xl rounded-br-none md:ml-16 md:w-[600px] md:h-[550px]"
+              className="custom-transition rounded-3xl rounded-br-none md:ml-16 md:w-[600px] md:h-[550px]"
               src="/why-choose-us-1.jpg"
               alt=""
             />
@@ -66,7 +66,7 @@ export function WhyChooseUs() {
                 ensuring relevance and success.
               </p>
               <div className="xs:flex xs:justify-center xs:items-center md:flex-none md:justify-start md:items-start">
-                <button className="xs:bg-black md:bg-[#CEFC02] w-36 xs:h-8 md:h-14 xs:rounded-full md:rounded-lg xs:text-[#CEFC02] md:text-black font-bold">
+                <button className="custom-transition xs:bg-black md:bg-[#CEFC02] w-36 xs:h-8 md:h-14 xs:rounded-full md:rounded-lg xs:text-[#CEFC02] md:text-black font-bold">
                   Read more{" "}
                 </button>
               </div>
@@ -74,7 +74,7 @@ export function WhyChooseUs() {
           </div>
           <div className="mb-20 xs:mx-4 md:mx-0 xs:w-[90%] flex xs:flex-col md:flex-row xs:gap-10 md:gap-20 items-start">
             <img
-              className="rounded-bl-none rounded-3xl md:ml-16 md:w-[600px] md:h-[550px]"
+              className="custom-transition rounded-bl-none rounded-3xl md:ml-16 md:w-[600px] md:h-[550px]"
               src="/why-choose-us-1.jpg"
               alt=""
             />
@@ -87,7 +87,7 @@ export function WhyChooseUs() {
                 ensuring relevance and success.
               </p>
               <div className="xs:flex xs:justify-center xs:items-center md:flex-none md:justify-start md:items-start">
-                <button className="xs:bg-black md:bg-[#CEFC02] w-36 xs:h-8 md:h-14 xs:rounded-full md:rounded-lg xs:text-[#CEFC02] md:text-black font-bold">
+                <button className="custom-transition xs:bg-black md:bg-[#CEFC02] w-36 xs:h-8 md:h-14 xs:rounded-full md:rounded-lg xs:text-[#CEFC02] md:text-black font-bold">
                   Read more{" "}
                 </button>
               </div>
@@ -95,7 +95,6 @@ export function WhyChooseUs() {
           </div>
         </div>
       </div>
-      <div className="mobile-view"></div>
     </>
   );
 }

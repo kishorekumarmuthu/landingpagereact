@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 export function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,7 +15,11 @@ export function Header() {
             <img src="/vite.svg" alt="" />
           </a>
         </div>
-        <div className="mr-6 absolute top-10 right-0">
+        <div
+          className={`mr-6 absolute top-10 right-0 transform transition-transform duration-300 ease-in-out ${
+            isOpen ? "translate-x-0" : "-translate-x-full"
+          }`}
+        >
           <button onClick={toggleMenu} className="focus:outline-none ">
             <svg
               className="w-6 h-6 "
@@ -35,6 +39,11 @@ export function Header() {
         </div>
       </div>
 
+      {/* <div
+        className={`md:hidden fixed inset-0 bg-gray-900 bg-opacity-95 flex flex-col items-center justify-center transform transition-transform duration-300 ease-in-out ${
+          isOpen ? "translate-x-0" : "-translate-x-full"
+        }`}
+      ></div> */}
       {isOpen ? (
         <ul className="md:hidden flex flex-col items-center space-y-6 mt-4">
           <li>
@@ -69,7 +78,7 @@ export function Header() {
           </li>
           <li>
             <a href="/contact" onClick={toggleMenu}>
-              <button className="w-80 bg-[#CEFC02] h-14 rounded-lg text-black font-bold">
+              <button className="custom-transition w-80 bg-[#CEFC02] h-14 rounded-lg text-black font-bold">
                 Get Started
               </button>
             </a>
@@ -103,7 +112,7 @@ export function Header() {
             </div>
             <div className="flex justify-center items-center px-8 text-sm">
               <a href="/contact">
-                <button className="bg-[#CEFC02] w-36 h-14 rounded-lg text-black font-bold">
+                <button className="custom-transition bg-[#CEFC02] w-36 h-14 rounded-lg text-black font-bold">
                   Get Started
                 </button>
               </a>

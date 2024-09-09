@@ -35,7 +35,7 @@ export function Hero() {
       </div>
       <div>
         <a href="/contact">
-          <button className="mt-12 bg-[#CEFC02] w-36 h-14 rounded-lg text-black font-bold">
+          <button className="custom-transition mt-12 bg-[#CEFC02] w-36 h-14 rounded-lg text-black font-bold">
             Start Now
           </button>
         </a>

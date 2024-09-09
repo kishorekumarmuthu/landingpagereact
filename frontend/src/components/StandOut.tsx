@@ -14,7 +14,7 @@ export function StandOut() {
           <p className="mt-8 xs:w-[90%] text-center text-xl font-normal text-gray-300 tracking-wide">
             Jump on a membership and start requesting designs right away!
           </p>
-          <button className="mt-8 bg-[#CEFC02] flex gap-2 justify-center items-center w-36 h-14 rounded-lg text-black font-bold">
+          <button className="custom-transition mt-8 bg-[#CEFC02] flex gap-2 justify-center items-center w-36 h-14 rounded-lg text-black font-bold">
             See Pricing
             <BsArrowRightCircleFill />
           </button>
